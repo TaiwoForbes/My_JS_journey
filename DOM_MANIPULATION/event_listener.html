@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+           
+        }
+        .head{
+            text-align: center;
+            font-weight: bold;
+            font-size: 4rem;
+        }
+        .container{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+        }
+        .boxes {
+            border: 1px solid white;
+            padding: 4rem;
+            text-align: center;
+            border-radius: 1rem;
+            
+        }
+        button{
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+            margin-top: 6rem;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading" class="head">Event Listener</h1>
+
+    <div class="container">
+
+        <div class="boxes box-1">
+            <h1 id="heading">Example 1</h1>
+            <button onclick="alert('I love javascript')" >Enter</button>
+        </div>
+
+        <div class="boxes box-2">
+            <h1 id="heading">Example 2</h1>
+            <button class="btn-2">Enter</button>
+        </div>
+        <div class="boxes box-3">
+            <h1 id="heading">Example 3</h1>
+            <button class="btn-3">Enter</button>
+        </div>
+    </div>
+
+    <script src="event_listener.js"></script>
+</body>
+</html>
