@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red {
+            background-color: red;
+            color: white;
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+        .blue {
+            background-color: blue;
+            color: white;
+            text-transform: capitalize;
+            letter-spacing: 10px;
+        }
+        .btn {
+            background-color: red;
+            color: white;
+            letter-spacing: 5px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>events in JavaScript</h2>
+    <p>Hey,I can trigger an event</p>
+    <button class="btn">Click Me</button>
+
+    <p onclick="this.classList.add('red')">the old style</p>
+
+    <script src="eventMouse.js"></script>
+</body>
+</html>
