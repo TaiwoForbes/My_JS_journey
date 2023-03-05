@@ -1,0 +1,1 @@
+This directory explore different beginners project I build while learning Javascript

@@ -12,7 +12,18 @@ const quotes = [{
 }, {
     quote: `"Remember that not gettinh what you want is sometimes a wonderful stroke of luck."`,
     person:'Dalal Laha'
-} ]
+}, {
+    quote:`"No one would have crossed the ocean if he could have gotten off the ship in the storm."`,
+    person:`Charles Kettering`
+    
+} , {
+    quote:`"Emotional empathy is what motivates us to help others."`,
+    person:`Brian Goldman`
+
+}, {
+    quote:`"The arrival of money is the departure of insult. Keep hustle spirit alive, there is no dignity in begging"`,
+    person:`Soyemi Issa Taiwo`
+}]
 
 btn.addEventListener('click',function(){
     let random = Math.floor(Math.random() * quotes.length)
