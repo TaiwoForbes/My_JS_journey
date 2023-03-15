@@ -11,7 +11,7 @@ function calculateTotal(array){
         console.log('Whoa! You are spending way too much');
     }
     else {
-        console.log('Your total is less than 100');
+        console.log('Ohps! Your total is less than 100');
     }
     return total;
 }
