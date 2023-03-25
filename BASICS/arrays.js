@@ -32,3 +32,4 @@ console.log(allNames)
 // splice - mutates the original array
 const specificName = allNames.splice(2,1)
 console.log(specificName)
+console.log(specificName.sort())
