@@ -4,4 +4,7 @@ Which includes:
 * Slide
 * Counter
 * NavBar
+* Color flipper
+* Todo list
+* Accordian
 
