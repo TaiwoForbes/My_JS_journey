@@ -11,6 +11,9 @@ btn.addEventListener('mouseup', function(){
     console.log('up')
 })
 
+
+//  NOTE: The mouseenter and mouseleave will also work the same with mouseover and mouseout
+
 heading.addEventListener('mouseenter',function(){
     heading.classList.add('blue')
 })
