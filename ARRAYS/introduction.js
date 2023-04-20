@@ -1,3 +1,6 @@
+// An array is a set of variables. For example:
+
+
 const arr = ['sociology', 'physics', 'chemistry']
 console.log(arr)
 // Arrays can also be created in this way
