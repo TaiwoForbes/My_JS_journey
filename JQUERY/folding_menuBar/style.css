@@ -1,0 +1,33 @@
+body{
+    background-color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 1.4em;
+}
+
+main{
+    width:800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+aside{
+    width: 250px;
+}
+
+article{
+    width: 525px;
+}
+
+
+.hide-menu{
+    display: none;
+}
+
+.show-menu{
+    display: block;
+}
