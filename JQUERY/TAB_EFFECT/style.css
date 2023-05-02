@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 100px 0;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+#tabs{
+    width: 400px;
+    margin: auto;
+}
+
+#tabs > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+#tabs > ul > li >a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 2px;
+    background: #a2a2a2;
+    color: #cecece;
+    text-decoration: none;
+    padding: 0 15px;
+    border-radius: 3px 3px 0 0 ;
+}
+
+#tabs > div {
+    padding: 15px;
+     width: 82.2%;
+    background-color: #eaeaea;
+    transition: opacity 200ms linear;
+}
+
+#tabs .active{
+    background-color: #eaeaea;
+    color: black;
+}
+
+
+#tabs .hidden{
+    display: none;
+}
+
+#tabs .visible{
+    display: block;
+}
+
+#tabs .visuallyhidden{
+    opacity: 0;
+}
