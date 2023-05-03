@@ -16,8 +16,9 @@ myCoolFunction()
 const anotherFunc = async () =>{
     const data = await myCoolFunction()
     myUsers.userList = data
+    console.log(myUsers.userList)
 }
 
 anotherFunc()
 
-console.log(myUsers.userList)
+
