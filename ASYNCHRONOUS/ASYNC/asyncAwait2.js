@@ -11,7 +11,7 @@ let is_shop_Open = false
 
 function time(ms){
     return new Promise((resolve,reject)=>{
-        if(is_shop_Open){
+        if(!is_shop_Open){
             setTimeout(resolve,ms)
         }
         else{
