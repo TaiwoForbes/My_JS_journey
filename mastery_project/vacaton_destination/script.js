@@ -25,7 +25,7 @@ function handleFormSubmit(event) {
 
 }
 
-
+// This creates a card
 function creatDestinationCard(name, location, photoUrl, description) {
     let card = document.createElement('div')
     card.className = 'card'
@@ -47,7 +47,7 @@ function creatDestinationCard(name, location, photoUrl, description) {
     cardBody.className = 'card-body'
     //Title
     let cardTitle = document.createElement('h3')
-    cardTitle.innerText = name
+    cardTitle.innerText = `Destination Name: ${name}`
     cardBody.appendChild(cardTitle)
 
     let subTitle = document.createElement('h4')
