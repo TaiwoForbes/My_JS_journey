@@ -1,3 +1,3 @@
-(function name(){
-    console.log('taiwo')
+(function name(name){
+    console.log(name)
 })()
